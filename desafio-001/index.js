@@ -1,6 +1,6 @@
 let nome = "Gabriel"
 let level = 10001
-let patentes = [
+const patentes = [
   ["Ferro", 1000, 0],
   ["Bronze", 1001, 2000],
   ["Prata", 2001, 500],
