@@ -19,7 +19,11 @@ for(let i in patentes){
   let minimo = valor[1]
   let maximo = valor[2]
 
-  if(level >= minimo && level <= maximo){
+  if(maximo >= 10001){
+    console.log(`${mensagemB}`)
+    console.log(`${mensagemA} ${valor[0]}`)
+  }
+  else if(level >= minimo && level <= maximo){
     console.log(mensagemB)
     console.log(mensagemA + `${valor[0]}`)
   }
